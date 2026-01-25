@@ -38,7 +38,7 @@ A high-speed deduplicator that uses a B-Tree "Brain" to remember EVERY
 is a perfect bit-for-bit match of the original.
 
 2. HOW THE ENCODER WORKS
-------------------------
+    
 The encoder slides a 256-byte "viewing window" across your file.
 
 Step A: It checks the B-Tree on your disk: "Is this block a repeat?"
@@ -47,7 +47,7 @@ Step B:
    - IF DUPLICATE: It writes a 13-byte "Pointer" and jumps ahead 255 bytes.
 
 3. THE "SANITY CHECK" POINTER
------------------------------
+    
 To prevent errors if the original file contains the "Magic Byte" (255), 
 we use a 13-byte secure pointer:
    [1 Byte Magic] + [8 Bytes Offset] + [4 Bytes Hashsum]
@@ -56,12 +56,12 @@ The Decoder will only follow a pointer if the data at the destination
 perfectly matches the 4-byte Hashsum passcode.
 
 4. THE DECODER
---------------
+    
 The decoder is a lightweight "Copy-Paster." It reads the instructions 
 and rebuilds the file by copying from the data it has already restored.
 
 5. PERFORMANCE & STATS
-----------------------
+    
 - RAM Usage:   Nearly 0. The disk does the heavy lifting.
 - Index Size:  Expect the .index to be significantly larger than the input.
 - Lookback:    Infinite. It can find a duplicate from byte 1 even if it's 
@@ -84,13 +84,15 @@ Maximum resident set size (kbytes): 1336
 File system inputs: 11,480
 File system outputs: 11,544
 
+```
     5,908,480 'Andrzej Sapkowski - The Witcher Series - 2007-2018.tar'
     5,883,364 'Andrzej Sapkowski - The Witcher Series - 2007-2018.tar.deduplicatedfile'
     5,908,480 'Andrzej Sapkowski - The Witcher Series - 2007-2018.tar.restored'
 2,334,216,200 dedup.index
+```
 
 6. CREDITS
-----------
+    
 Gemini AI is cool, it is the main "culprit" for this wondertool.
 The 'Zirka' naming is to pay tribute to the beloved kidbook 'Дружков Ю. - Приключения Карандаша и Самоделкина (худ. И. Семёнов)'.
 One of the two villains was called Zirka - a petty spy.
@@ -116,7 +118,7 @@ https://en.wiktionary.org/wiki/%D0%B7%D0%B8%D1%80%D0%BA%D0%B0
 https://ibl.bas.bg/rbe/lang/bg/%D0%B7%D0%B8%D1%80%D0%BA%D0%B0/
 
 7. DOWNLOAD
------------
+    
 https://github.com/Sanmayce/Zirka
 
 2026-Jan-25
