@@ -1,5 +1,5 @@
-<h2>Zirka v.1</h2> - THE B-TREE SLIDING DEDUPLICATOR (JUMPING EDITION) - README.TXT
-    
+Zirka v.1 - THE B-TREE SLIDING DEDUPLICATOR (JUMPING EDITION) - README.TXT
+        
     
 <img width="776" height="796" alt="Zirka_logo_text" src="https://github.com/user-attachments/assets/63c625d4-5e86-4f79-85c6-2752b3e50f6a" />
     
