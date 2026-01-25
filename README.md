@@ -1,4 +1,4 @@
-Zirka v.1 - THE B-TREE SLIDING DEDUPLICATOR (JUMPING EDITION) - README.TXT
+<h2>Zirka v.1 - THE B-TREE SLIDING DEDUPLICATOR (JUMPING EDITION) - README.TXT</h2>
 
 THE HIGHLIGHT: ZERO-RAM ARCHITECTURE
 Most compression tools are limited by your computer's RAM. If you want to 
@@ -31,7 +31,7 @@ THE FOUR EXTREMES (THE HIGHLIGHTS) [
 THE FOUR EXTREMES (THE HIGHLIGHTS) ]
 
 1. WHAT IS THIS?
-----------------
+    
 A FREE open-source console tool (Linux) written in C by Kaze & Gemini AI.
 A high-speed deduplicator that uses a B-Tree "Brain" to remember EVERY 
 256-byte sequence in a file. It is "Lossless," meaning the restored file 
