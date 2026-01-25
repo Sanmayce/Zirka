@@ -1,7 +1,7 @@
 Zirka v.1 - THE B-TREE SLIDING DEDUPLICATOR (JUMPING EDITION) - README.TXT
 <br>
 <br>
-<img width="728" height="1488" alt="from-PixAI-1972062557542037311-2_crop2_stamp_cartoon" src="https://github.com/user-attachments/assets/f0cc512f-36ce-4aa5-9f0d-e1f6b64dbadf" />
+<img width="728" height="1488" alt="transparent" src="https://github.com/user-attachments/assets/4cbbcc53-1eba-42f7-a1cb-b042d54ea136" />
 <br>
 <br>
 THE HIGHLIGHT: ZERO-RAM ARCHITECTURE
