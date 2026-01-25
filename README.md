@@ -112,11 +112,11 @@ Etymology: By surface analysis, зи́ра (zíra, “transparent substance”) 
 Pronunciation: IPA: [ˈzirkɐ]  
 Noun  
 зи́рка • (zírka) m (dialectal)
-slit, leak, gap for seeing through
+slit, leak, gap for seeing through  
 Derived terms:  
 взи́рка (vzírka) (dialectal)
 прози́рка (prozírka) (dialectal)
-зи́ркав (zírkav, “squeezed, squinted”) (of eyes)
+зи́ркав (zírkav, “squeezed, squinted”) (of eyes)  
 Related terms:  
 зи́ркам (zírkam, “to see through”) (dialectal)
 прозо́рец (prozórec, “window”)    
