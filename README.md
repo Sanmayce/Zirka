@@ -1,9 +1,8 @@
 Zirka v.1 - THE B-TREE SLIDING DEDUPLICATOR (JUMPING EDITION) - README.TXT
-        
-    
+<br> 
 <img width="776" height="796" alt="Zirka_logo_text" src="https://github.com/user-attachments/assets/63c625d4-5e86-4f79-85c6-2752b3e50f6a" />
-    
-
+<br>    
+<br>
 THE HIGHLIGHT: ZERO-RAM ARCHITECTURE
 Most compression tools are limited by your computer's RAM. If you want to 
 deduplicate 300GB, they usually require 300GB of RAM. 
