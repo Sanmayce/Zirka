@@ -2,7 +2,7 @@ Zirka v.1 - THE B-TREE SLIDING DEDUPLICATOR (JUMPING EDITION) - README.TXT
         
     
 <img width="776" height="796" alt="Zirka_logo_text" src="https://github.com/user-attachments/assets/63c625d4-5e86-4f79-85c6-2752b3e50f6a" />
-
+    
 
 THE HIGHLIGHT: ZERO-RAM ARCHITECTURE
 Most compression tools are limited by your computer's RAM. If you want to 
@@ -11,7 +11,7 @@ NOT THIS TOOL. By using a Disk-Based B-Tree, this encoder uses almost
 ZERO RAM. It performs "Search & Rescue" operations directly on your 
 NVMe/SSD. If you can store it, you can dedup it.
 
-In all seriousness, a true practical deduplicator is Lasse's eXdupe:
+In all seriousness, Zirka is a texttoy, for a true practical deduplicator look up Lasse's eXdupe:  
 https://github.com/rrrlasse/eXdupe
 
 THE FOUR EXTREMES (THE HIGHLIGHTS) [
