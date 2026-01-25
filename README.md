@@ -5,8 +5,9 @@ Zirka v.1 - THE B-TREE SLIDING DEDUPLICATOR (JUMPING EDITION) - README.TXT
 <br>
 <br>
 THE HIGHLIGHT: ZERO-RAM ARCHITECTURE
+<br>
 Most compression tools are limited by your computer's RAM. If you want to 
-deduplicate 300GB, they usually require 300GB of RAM. 
+deduplicate 300GB, they usually require 8++GB of RAM. 
 NOT THIS TOOL. By using a Disk-Based B-Tree, this encoder uses almost 
 ZERO RAM. It performs "Search & Rescue" operations directly on your 
 NVMe/SSD. If you can store it, you can dedup it.
