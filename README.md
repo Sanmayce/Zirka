@@ -74,6 +74,7 @@ and rebuilds the file by copying from the data it has already restored.
 - Lookback:    Infinite. It can find a duplicate from byte 1 even if it's 
                currently at byte 300,000,000,000.
 
+```
 $ sh zrk.sh Andrzej\ Sapkowski\ -\ The\ Witcher\ Series\ -\ 2007-2018.tar
 Deduplicating with 256 bytes granularity...
 Uniques: 5887604 | Duplicates: 104
@@ -90,6 +91,7 @@ Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.12
 Maximum resident set size (kbytes): 1336
 File system inputs: 11,480
 File system outputs: 11,544
+```
 
 ```
     5,908,480 'Andrzej Sapkowski - The Witcher Series - 2007-2018.tar'
@@ -104,24 +106,24 @@ Gemini AI is cool, it is the main "culprit" for this wondertool.
 The 'Zirka' naming is to pay tribute to the beloved kidbook 'Дружков Ю. - Приключения Карандаша и Самоделкина (худ. И. Семёнов)'.
 One of the two villains was called Zirka - a petty spy.
 
-зирка
-Bulgarian
-Etymology: By surface analysis, зи́ра (zíra, “transparent substance”) +‎ -ка (-ka)
-Pronunciation: IPA: [ˈzirkɐ]
-Noun
+зирка  
+Bulgarian  
+Etymology: By surface analysis, зи́ра (zíra, “transparent substance”) +‎ -ка (-ka)  
+Pronunciation: IPA: [ˈzirkɐ]  
+Noun  
 зи́рка • (zírka) m (dialectal)
 slit, leak, gap for seeing through
-Derived terms:
+Derived terms:  
 взи́рка (vzírka) (dialectal)
 прози́рка (prozírka) (dialectal)
 зи́ркав (zírkav, “squeezed, squinted”) (of eyes)
-Related terms:
+Related terms:  
 зи́ркам (zírkam, “to see through”) (dialectal)
-прозо́рец (prozórec, “window”)
+прозо́рец (prozórec, “window”)    
 https://en.wiktionary.org/wiki/%D0%B7%D0%B8%D1%80%D0%BA%D0%B0
 
 РЕЧНИК НА БЪЛГАРСКИЯ ЕЗИК (ОНЛАЙН)
-ЗЍРКА ж. Диал. Цепнатина или отвор в някаква преграда, покрив и под.; пролука, процеп, прозорка, прозирка. Дядо Яначко седеше поприведен в тъмното на одъра; през зирките на вратата светеше – оттатъка в оная, голямата стая. Ил. Волен, НС, 73. Той наблюдаваше през зирките на керемидите как зората се сипваше. Г. Караславов, Избр. съч. Х, 26. През зирките в дъсчената врата на плевнята се виждаше целият двор. В. Андреев, ПП, 8.
+ЗЍРКА ж. Диал. Цепнатина или отвор в някаква преграда, покрив и под.; пролука, процеп, прозорка, прозирка. Дядо Яначко седеше поприведен в тъмното на одъра; през зирките на вратата светеше – оттатъка в оная, голямата стая. Ил. Волен, НС, 73. Той наблюдаваше през зирките на керемидите как зората се сипваше. Г. Караславов, Избр. съч. Х, 26. През зирките в дъсчената врата на плевнята се виждаше целият двор. В. Андреев, ПП, 8.  
 https://ibl.bas.bg/rbe/lang/bg/%D0%B7%D0%B8%D1%80%D0%BA%D0%B0/
 
 7. DOWNLOAD
