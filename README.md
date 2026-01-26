@@ -1,5 +1,4 @@
 Zirka v.2 - THE B-TREE SLIDING DEDUPLICATOR (JUMPING EDITION) - README.TXT
-
 <br>
 <br>
 <img width="728" height="1488" alt="transparent" src="https://github.com/user-attachments/assets/4cbbcc53-1eba-42f7-a1cb-b042d54ea136" />
@@ -37,6 +36,9 @@ THE FOUR EXTREMES (THE HIGHLIGHTS) [
 
 THE FOUR EXTREMES (THE HIGHLIGHTS) ]
 
+In all seriousness, Zirka is a texttoy, for real/practical scenarios, look up Lasse's eXdupe:
+https://github.com/rrrlasse/eXdupe
+
 1. WHAT IS THIS?
 
 A FREE open-source console tool (Linux) written in C by Kaze & Gemini Pro AI.
@@ -73,7 +75,7 @@ and rebuilds the file by copying from the data it has already restored.
 - Index Size:  Expect the .index to be significantly larger than the input.
 - Lookback:    Infinite. It can find a duplicate from byte 1 even if it's currently at byte 300,000,000,000.
 
-'''
+```
 Benchmarking 'SUPRAPIG_Intel_Parallel_Studio_XE_2019_Downloadable_Documentation_(29599_files).tar' (451,194,368 bytes), BLAKE3: e05e97740bd199a08dc0da7c8e38fd5e2eadf2fce0d549f1bc08a1428e7ad8ee
 +--------------------------+-----------------+-----------------+---------------------+---------------------+----------------------+-------------+---------------+
 | Deduplicator/Compressor  | Compressed Size | Compressed Size | I Memory Footprint, | E Memory Footprint, | Memory Footprint,    | Compression | Decompression |
@@ -87,7 +89,7 @@ Benchmarking 'SUPRAPIG_Intel_Parallel_Studio_XE_2019_Downloadable_Documentation_
 Note1: The testmachine is my fastest laptop Dell, i7-11850H, 128 GB DDR4, Linux Fedora 42
 Note2: The SSD is Corsair MP600 2TB 
 Note3: 'I' stands for Internal, 'E' stands for External
-'''
+```
 
 6. CREDITS
 
@@ -95,23 +97,23 @@ Gemini Pro AI is cool, it is the main "culprit" for this wondertool.
 The 'Zirka' naming is to pay tribute to the beloved kidbook 'Дружков Юрий - Приключения Карандаша и Самоделкина (худ. И. Семёнов)'.
 One of the two villains was called Zirka - a petty spy. The logo was made from the book's original drawing fed to the Japanese PixAI.
 
-зирка
+зирка<br>
 Bulgarian
 Etymology: By surface analysis, зи́ра (zíra, “transparent substance”) +‎ -ка (-ka)
 Pronunciation: IPA: [ˈzirkɐ]
 Noun
 зи́рка • (zírka) m (dialectal)
-slit, leak, gap for seeing through
-Derived terms:
+slit, leak, gap for seeing through<br>
+Derived terms:<br>
 взи́рка (vzírka) (dialectal)
 прози́рка (prozírka) (dialectal)
 зи́ркав (zírkav, “squeezed, squinted”) (of eyes)
-Related terms:
+Related terms:<br>
 зи́ркам (zírkam, “to see through”) (dialectal)
 прозо́рец (prozórec, “window”)
 https://en.wiktionary.org/wiki/%D0%B7%D0%B8%D1%80%D0%BA%D0%B0
 
-РЕЧНИК НА БЪЛГАРСКИЯ ЕЗИК (ОНЛАЙН)
+РЕЧНИК НА БЪЛГАРСКИЯ ЕЗИК (ОНЛАЙН)<br>
 ЗЍРКА ж. Диал. Цепнатина или отвор в някаква преграда, покрив и под.; пролука, процеп, прозорка, прозирка. Дядо Яначко седеше поприведен в тъмното на одъра; през зирките на вратата светеше – оттатъка в оная, голямата стая. Ил. Волен, НС, 73. Той наблюдаваше през зирките на керемидите как зората се сипваше. Г. Караславов, Избр. съч. Х, 26. През зирките в дъсчената врата на плевнята се виждаше целият двор. В. Андреев, ПП, 8.
 https://ibl.bas.bg/rbe/lang/bg/%D0%B7%D0%B8%D1%80%D0%BA%D0%B0/
 
