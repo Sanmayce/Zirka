@@ -5,7 +5,7 @@ Zirka v.2 - THE B-TREE SLIDING DEDUPLICATOR (JUMPING EDITION) - README.TXT
 <br>
 <br>
 
-THE HIGHLIGHT: ZERO-RAM ARCHITECTURE
+THE HIGHLIGHT: ZERO-RAM ARCHITECTURE<br>
 Most compression tools are limited by your computer's RAM.
 If you want to deduplicate 300GB, they usually require 8++GB of RAM. 
 NOT THIS TOOL.
@@ -107,7 +107,7 @@ slit, leak, gap for seeing through<br>
 Derived terms:<br>
 взи́рка (vzírka) (dialectal)
 прози́рка (prozírka) (dialectal)
-зи́ркав (zírkav, “squeezed, squinted”) (of eyes)
+зи́ркав (zírkav, “squeezed, squinted”) (of eyes)<br>
 Related terms:<br>
 зи́ркам (zírkam, “to see through”) (dialectal)
 прозо́рец (prozórec, “window”)
