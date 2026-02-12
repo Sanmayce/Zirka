@@ -1,3 +1,5 @@
+The code is buggy, I'm sorry, to be fixed and changed greatly... Only the concept is sound, currently both files are trash.
+
 Zirka v.2 - THE B-TREE SLIDING DEDUPLICATOR (JUMPING EDITION) - README.TXT
 <br>
 <br>
