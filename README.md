@@ -95,7 +95,7 @@ Note3: 'I' stands for Internal, 'E' stands for External
 
 6. CREDITS
 
-Gemini Pro AI is cool, it is the main "culprit" for this wondertool.
+Gemini Pro AI is NOT cool (wrongly implemented stuff), it is the main "culprit" for this wondertool.
 The 'Zirka' naming is to pay tribute to the beloved kidbook 'Дружков Юрий - Приключения Карандаша и Самоделкина (худ. И. Семёнов)'.
 One of the two villains was called Zirka - a petty spy. The logo was made from the book's original drawing fed to the Japanese PixAI.
 
