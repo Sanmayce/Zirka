@@ -240,19 +240,19 @@ Zirka+RAR is (1372507424-1174686817)*100/1174686817= 16.84% stronger than eXdupe
 The DeDeDuplication = Duplication Showdown - eXdupe is (16.82-14.76)*100/14.76= 13.95% faster than Zirka:
 <br>
 ```
-<br>[sanmayce@djudjeto v7++]$ sudo mkdir -p /mnt/ramdisk
-<br>[sudo] password for sanmayce: 
-<br>[sanmayce@djudjeto v7++]$ sudo mount -t tmpfs -o size=80G tmpfs /mnt/ramdisk/
-<br>[sanmayce@djudjeto v7++]$ cp SUPRAPIG_Sefaria-Export-master (62438-folders 82694-files).tar.eXdupe0 /mnt/ramdisk/
-<br>[sanmayce@djudjeto v7++]$ cp SUPRAPIG_Sefaria-Export-master (62438-folders 82694-files).tar.zirka /mnt/ramdisk/
-<br>[sanmayce@djudjeto v7++]$ cp FastUnzirka_v7++_Final /mnt/ramdisk/
-<br>[sanmayce@djudjeto v7++]$ cp eXdupe-3.0.2 linux amd64 /mnt/ramdisk/
-<br>[sanmayce@djudjeto v7++]$ cd /mnt/ramdisk/
-<br>[sanmayce@djudjeto ramdisk]$ ls -l
-<br>-rwxr-xr-x 1 sanmayce sanmayce     4895360 Feb 16 01:35 eXdupe-3.0.2 linux amd64
-<br>-rwxr-xr-x 1 sanmayce sanmayce       17328 Feb 15 15:14 FastUnzirka_v7++_Final
-<br>-rw-r--r-- 1 sanmayce sanmayce 15713574592 Feb 16 01:35 SUPRAPIG_Sefaria-Export-master (62438-folders 82694-files).tar.eXdupe0
-<br>-rw-r--r-- 1 sanmayce sanmayce 13490639033 Feb 16 01:35 SUPRAPIG_Sefaria-Export-master (62438-folders 82694-files).tar.zirka
+[sanmayce@djudjeto v7++]$ sudo mkdir -p /mnt/ramdisk
+[sudo] password for sanmayce: 
+[sanmayce@djudjeto v7++]$ sudo mount -t tmpfs -o size=80G tmpfs /mnt/ramdisk/
+[sanmayce@djudjeto v7++]$ cp SUPRAPIG Sefaria-Export-master (62438-folders 82694-files).tar.eXdupe0 /mnt/ramdisk/
+[sanmayce@djudjeto v7++]$ cp SUPRAPIG Sefaria-Export-master (62438-folders 82694-files).tar.zirka /mnt/ramdisk/
+[sanmayce@djudjeto v7++]$ cp FastUnzirka_v7++_Final /mnt/ramdisk/
+[sanmayce@djudjeto v7++]$ cp eXdupe-3.0.2 linux amd64 /mnt/ramdisk/
+[sanmayce@djudjeto v7++]$ cd /mnt/ramdisk/
+[sanmayce@djudjeto ramdisk]$ ls -l
+-rwxr-xr-x 1 sanmayce sanmayce     4895360 Feb 16 01:35 eXdupe-3.0.2 linux amd64
+-rwxr-xr-x 1 sanmayce sanmayce       17328 Feb 15 15:14 FastUnzirka_v7++_Final
+-rw-r--r-- 1 sanmayce sanmayce 15713574592 Feb 16 01:35 SUPRAPIG Sefaria-Export-master (62438-folders 82694-files).tar.eXdupe0
+-rw-r--r-- 1 sanmayce sanmayce 13490639033 Feb 16 01:35 SUPRAPIG Sefaria-Export-master (62438-folders 82694-files).tar.zirka
 ```
 <br>
 
