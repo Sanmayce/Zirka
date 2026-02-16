@@ -248,6 +248,8 @@ The DeDeDuplication = Duplication Showdown - eXdupe is (16.82-14.76)*100/14.76= 
 [sanmayce@djudjeto v7++]$ cp FastUnzirka_v7++_Final /mnt/ramdisk/
 [sanmayce@djudjeto v7++]$ cp eXdupe-3.0.2_linux_amd64 /mnt/ramdisk/
 [sanmayce@djudjeto v7++]$ cd /mnt/ramdisk/
+```
+```
 [sanmayce@djudjeto ramdisk]$ ls -l
 -rwxr-xr-x 1 sanmayce sanmayce     4895360 Feb 16 01:35 eXdupe-3.0.2_linux_amd64
 -rwxr-xr-x 1 sanmayce sanmayce       17328 Feb 15 15:14 FastUnzirka_v7++_Final
