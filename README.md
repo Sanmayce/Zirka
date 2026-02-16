@@ -240,9 +240,9 @@ Zirka+RAR is (1372507424-1174686817)*100/1174686817= 16.84% stronger than eXdupe
 The DeDeDuplication = Duplication Showdown - eXdupe is (16.82-14.76)*100/14.76= 13.95% faster than Zirka:
 <br>
 ```
-[sanmayce@djudjeto v7++]$ sudo mkdir -p /mnt/ramdisk
+[sanmayce@djudjeto v7++]# sudo mkdir -p /mnt/ramdisk
 [sudo] password for sanmayce: 
-[sanmayce@djudjeto v7++]$ sudo mount -t tmpfs -o size=80G tmpfs /mnt/ramdisk/
+[sanmayce@djudjeto v7++]# sudo mount -t tmpfs -o size=80G tmpfs /mnt/ramdisk/
 ```
 ```
 [sanmayce@djudjeto v7++]$ cp SUPRAPIG Sefaria-Export-master (62438-folders 82694-files).tar.eXdupe0 /mnt/ramdisk/
