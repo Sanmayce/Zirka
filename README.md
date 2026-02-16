@@ -1,5 +1,3 @@
-The code is buggy, I'm sorry, to be fixed and changed greatly... Only the concept is sound, currently both files are trash.
-
 Zirka v.7++ - THE ZER0 RAM DEDUPLICATOR - README.TXT
 <br>
 <br>
