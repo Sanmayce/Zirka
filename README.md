@@ -239,7 +239,6 @@ Zirka+RAR is (1372507424-1174686817)*100/1174686817= 16.84% stronger than eXdupe
 <br>
 The DeDeDuplication = Duplication Showdown - eXdupe is (16.82-14.76)*100/14.76= 13.95% faster than Zirka:
 <br>
-<br>
 <br>[sanmayce@djudjeto v7++]$ sudo mkdir -p /mnt/ramdisk
 <br>[sudo] password for sanmayce: 
 <br>[sanmayce@djudjeto v7++]$ sudo mount -t tmpfs -o size=80G tmpfs /mnt/ramdisk/
@@ -253,70 +252,9 @@ The DeDeDuplication = Duplication Showdown - eXdupe is (16.82-14.76)*100/14.76= 
 <br>-rwxr-xr-x 1 sanmayce sanmayce       17328 Feb 15 15:14 FastUnzirka v7++ Final
 <br>-rw-r--r-- 1 sanmayce sanmayce 15713574592 Feb 16 01:35 SUPRAPIG Sefaria-Export-master (62438-folders 82694-files).tar.eXdupe0
 <br>-rw-r--r-- 1 sanmayce sanmayce 13490639033 Feb 16 01:35 SUPRAPIG Sefaria-Export-master (62438-folders 82694-files).tar.zirka
+<br>[sanmayce@djudjeto ramdisk]$ perf stat -d ./FastUnzirka_v7++_Final SUPRAPIG_Sefaria-Export-master_\(62438-folders_82694-files\).tar.zirka
+<br>[sanmayce@djudjeto ramdisk]$ perf stat -d ./eXdupe-3.0.2_linux_amd64 -R SUPRAPIG_Sefaria-Export-master_\(62438-folders_82694-files\).tar.eXdupe0 q
 <br>
-<br>
-```
-[sanmayce@djudjeto ramdisk]$ perf stat -d ./FastUnzirka_v7++_Final SUPRAPIG_Sefaria-Export-master_\(62438-folders_82694-files\).tar.zirka
-[Zirka v7 Restorer] Processing SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar.zirka...
-
-Restoration Complete.
-Dedup Tags Processed: 3415645
-Final File Size: 27436717568 bytes
-
- Performance counter stats for ./FastUnzirka_v7++_Final SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar.zirka:
-
-         16,803.59 msec task-clock:u                         0.999 CPUs utilized             
-                 0      context-switches:u                   0.000 /sec                      
-                 0      cpu-migrations:u                     0.000 /sec                      
-         6,961,591      page-faults:u                      414.292 K/sec                     
-   175,007,954,055      instructions:u                       4.12  insn per cycle              (90.91%)
-    42,444,050,519      cycles:u                             2.526 GHz                         (90.90%)
-    40,381,973,147      branches:u                           2.403 G/sec                       (90.92%)
-         3,814,208      branch-misses:u                      0.01% of all branches             (81.81%)
-                        TopdownL1                       0.4 %  tma_backend_bound      
-                                                       96.8 %  tma_bad_speculation    
-                                                        0.7 %  tma_frontend_bound     
-                                                        2.2 %  tma_retiring             (90.90%)
-    40,362,366,308      L1-dcache-loads:u                    2.402 G/sec                       (90.92%)
-       445,287,152      L1-dcache-load-misses:u              1.10% of all L1-dcache accesses   (90.91%)
-        85,120,545      LLC-loads:u                          5.066 M/sec                       (90.92%)
-        57,574,197      LLC-load-misses:u                   67.64% of all LL-cache accesses    (81.80%)
-
-      16.823698295 seconds time elapsed
-
-       8.214037000 seconds user
-       8.461439000 seconds sys
-
-[sanmayce@djudjeto ramdisk]$ perf stat -d ./eXdupe-3.0.2_linux_amd64 -R SUPRAPIG_Sefaria-Export-master_\(62438-folders_82694-files\).tar.eXdupe0 q
-Wrote 27,436,717,568 bytes in 1 files                                                                                                                         
-
- Performance counter stats for ./eXdupe-3.0.2_linux_amd64 -R SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar.eXdupe0 q:
-
-         14,701.96 msec task-clock:u                          0.996 CPUs utilized             
-                 0      context-switches:u                    0.000 /sec                      
-                 0      cpu-migrations:u                      0.000 /sec                      
-           102,988      page-faults:u                         7.005 K/sec                     
-    85,919,414,851      instructions:u                        2.44  insn per cycle              (90.90%)
-    35,163,744,366      cycles:u                              2.392 GHz                         (90.91%)
-    12,567,674,765      branches:u                          854.830 M/sec                       (90.91%)
-        90,587,068      branch-misses:u                       0.72% of all branches             (81.82%)
-                        TopdownL1                        5.0 %  tma_backend_bound      
-                                                        94.2 %  tma_bad_speculation    
-                                                         0.2 %  tma_frontend_bound     
-                                                         0.5 %  tma_retiring             (90.92%)
-    13,338,600,761      L1-dcache-loads:u                   907.267 M/sec                       (90.91%)
-     4,523,671,736      L1-dcache-load-misses:u              33.91% of all L1-dcache accesses   (90.92%)
-       147,757,520      LLC-loads:u                          10.050 M/sec                       (90.91%)
-        72,831,024      LLC-load-misses:u                    49.29% of all LL-cache accesses    (81.81%)
-
-      14.760860445 seconds time elapsed
-
-       7.429165000 seconds user
-       7.156169000 seconds sys
-
-[sanmayce@djudjeto ramdisk]$ 
-```
-
 зирка<br>
 Bulgarian
 Etymology: By surface analysis, зи́ра (zíra, “transparent substance”) +‎ -ка (-ka)
