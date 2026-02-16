@@ -217,27 +217,28 @@ fe1bf9b7f83bcc8b8edead02e4eef0e8f8d8ee4f1e9a8c0f14591c8c50528b40  SUPRAPIG_Sefar
 fe1bf9b7f83bcc8b8edead02e4eef0e8f8d8ee4f1e9a8c0f14591c8c50528b40  SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar.zirka.restored
 ```
 
-'Sefaria' thrown at RAR 7.12, eXdupe-3.0.2. Zirka 7++:<br>
+Sefaria thrown at RAR 7.12, eXdupe-3.0.2. Zirka 7++:<br>
 ```
-[root@djudjeto v7++]# ./rarlinux-x64-712 a -md32g -mcx SUPRAPIG_Sefaria-Export-master_\(62438-folders_82694-files\).tar.zirka.rar SUPRAPIG_Sefaria-Export-master_\(62438-folders_82694-files\).tar.zirka
-[root@djudjeto v7++]# ./rarlinux-x64-712 a -md32g -mcx SUPRAPIG_Sefaria-Export-master_\(62438-folders_82694-files\).tar.eXdupe0.rar SUPRAPIG_Sefaria-Export-master_\(62438-folders_82694-files\).tar.eXdupe0 
-[root@djudjeto v7++]# ./rarlinux-x64-712 a -md32g -mcx SUPRAPIG_Sefaria-Export-master_\(62438-folders_82694-files\).tar.rar SUPRAPIG_Sefaria-Export-master_\(62438-folders_82694-files\).tar 
+[root@djudjeto v7++]# ./rarlinux-x64-712 a -md32g -mcx SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar.zirka.rar SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar.zirka
+[root@djudjeto v7++]# ./rarlinux-x64-712 a -md32g -mcx SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar.eXdupe0.rar SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar.eXdupe0 
+[root@djudjeto v7++]# ./rarlinux-x64-712 a -md32g -mcx SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar.rar SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar 
 
 [root@djudjeto v7++]# ls -l SU*
--rw-r--r-- 1 sanmayce sanmayce 27436717568 Jan 28 18:27 'SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar'
--rw-r--r-- 1 root     root      1260838316 Feb 16 01:10 'SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar.rar'
+-rw-r--r-- 1 sanmayce sanmayce 27436717568 Jan 28 18:27 SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar
+-rw-r--r-- 1 root     root      1260838316 Feb 16 01:10 SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar.rar
 
--rw-r--r-- 1 root     root     15713574592 Feb 15 23:03 'SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar.eXdupe0'
--rw-r--r-- 1 root     root      1372507424 Feb 16 00:19 'SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar.eXdupe0.rar'
+-rw-r--r-- 1 root     root     15713574592 Feb 15 23:03 SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar.eXdupe0
+-rw-r--r-- 1 root     root      1372507424 Feb 16 00:19 SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar.eXdupe0.rar
 
--rw-r--r-- 1 root     root     13490639033 Feb 15 20:58 'SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar.zirka'
--rw-r--r-- 1 root     root      1174686817 Feb 15 23:41 'SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar.zirka.rar'
+-rw-r--r-- 1 root     root     13490639033 Feb 15 20:58 SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar.zirka
+-rw-r--r-- 1 root     root      1174686817 Feb 15 23:41 SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar.zirka.rar
 
 Zirka+RAR is (1260838316-1174686817)*100/1174686817= 7.33% stronger than RAR
 Zirka+RAR is (1372507424-1174686817)*100/1174686817= 16.84% stronger than eXdupe+RAR
 ```
 <br>
-The DeDeDuplication = Duplication Showdown - eXdupe is (16.82-14.76)*100/14.76= 13.95% faster than Zirka:<br>
+The DeDeDuplication = Duplication Showdown - eXdupe is (16.82-14.76)*100/14.76= 13.95% faster than Zirka:
+<br>
 ```
 [sanmayce@djudjeto v7++]$ sudo mkdir -p /mnt/ramdisk
 [sudo] password for sanmayce: 
