@@ -262,7 +262,7 @@ Restoration Complete.
 Dedup Tags Processed: 3415645
 Final File Size: 27436717568 bytes
 
- Performance counter stats for './FastUnzirka_v7++_Final SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar.zirka':
+ Performance counter stats for ./FastUnzirka_v7++_Final SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar.zirka:
 
          16,803.59 msec task-clock:u                     #    0.999 CPUs utilized             
                  0      context-switches:u               #    0.000 /sec                      
@@ -289,7 +289,7 @@ Final File Size: 27436717568 bytes
 [sanmayce@djudjeto ramdisk]$ perf stat -d ./eXdupe-3.0.2_linux_amd64 -R SUPRAPIG_Sefaria-Export-master_\(62438-folders_82694-files\).tar.eXdupe0 q
 Wrote 27,436,717,568 bytes in 1 files                                                                                                                                       
 
- Performance counter stats for './eXdupe-3.0.2_linux_amd64 -R SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar.eXdupe0 q':
+ Performance counter stats for ./eXdupe-3.0.2_linux_amd64 -R SUPRAPIG_Sefaria-Export-master_(62438-folders_82694-files).tar.eXdupe0 q:
 
          14,701.96 msec task-clock:u                     #    0.996 CPUs utilized             
                  0      context-switches:u               #    0.000 /sec                      
@@ -336,7 +336,7 @@ https://en.wiktionary.org/wiki/%D0%B7%D0%B8%D1%80%D0%BA%D0%B0
 ЗЍРКА ж. Диал. Цепнатина или отвор в някаква преграда, покрив и под.; пролука, процеп, прозорка, прозирка. Дядо Яначко седеше поприведен в тъмното на одъра; през зирките на вратата светеше – оттатъка в оная, голямата стая. Ил. Волен, НС, 73. Той наблюдаваше през зирките на керемидите как зората се сипваше. Г. Караславов, Избр. съч. Х, 26. През зирките в дъсчената врата на плевнята се виждаше целият двор. В. Андреев, ПП, 8.
 https://ibl.bas.bg/rbe/lang/bg/%D0%B7%D0%B8%D1%80%D0%BA%D0%B0/
 
-7. DOWNLOAD
+8. DOWNLOAD
 
 https://github.com/Sanmayce/Zirka
 
