@@ -237,24 +237,6 @@ Zirka+RAR is (1260838316-1174686817)*100/1174686817= 7.33% stronger than RAR
 Zirka+RAR is (1372507424-1174686817)*100/1174686817= 16.84% stronger than eXdupe+RAR
 ```
 <br>
-The DeDeDuplication = Duplication Showdown - eXdupe is (16.82-14.76)*100/14.76= 13.95% faster than Zirka:
-<br>
-<br>[sanmayce@djudjeto v7++]$ sudo mkdir -p /mnt/ramdisk
-<br>[sudo] password for sanmayce: 
-<br>[sanmayce@djudjeto v7++]$ sudo mount -t tmpfs -o size=80G tmpfs /mnt/ramdisk/
-<br>[sanmayce@djudjeto v7++]$ cp SUPRAPIG Sefaria-Export-master (62438-folders 82694-files).tar.eXdupe0 /mnt/ramdisk/
-<br>[sanmayce@djudjeto v7++]$ cp SUPRAPIG Sefaria-Export-master (62438-folders 82694-files).tar.zirka /mnt/ramdisk/
-<br>[sanmayce@djudjeto v7++]$ cp FastUnzirka v7++ Final /mnt/ramdisk/
-<br>[sanmayce@djudjeto v7++]$ cp eXdupe-3.0.2 linux amd64 /mnt/ramdisk/
-<br>[sanmayce@djudjeto v7++]$ cd /mnt/ramdisk/
-<br>[sanmayce@djudjeto ramdisk]$ ls -l
-<br>-rwxr-xr-x 1 sanmayce sanmayce     4895360 Feb 16 01:35 eXdupe-3.0.2 linux amd64
-<br>-rwxr-xr-x 1 sanmayce sanmayce       17328 Feb 15 15:14 FastUnzirka v7++ Final
-<br>-rw-r--r-- 1 sanmayce sanmayce 15713574592 Feb 16 01:35 SUPRAPIG Sefaria-Export-master (62438-folders 82694-files).tar.eXdupe0
-<br>-rw-r--r-- 1 sanmayce sanmayce 13490639033 Feb 16 01:35 SUPRAPIG Sefaria-Export-master (62438-folders 82694-files).tar.zirka
-<br>[sanmayce@djudjeto ramdisk]$ perf stat -d ./FastUnzirka_v7++_Final SUPRAPIG_Sefaria-Export-master_\(62438-folders_82694-files\).tar.zirka
-<br>[sanmayce@djudjeto ramdisk]$ perf stat -d ./eXdupe-3.0.2_linux_amd64 -R SUPRAPIG_Sefaria-Export-master_\(62438-folders_82694-files\).tar.eXdupe0 q
-<br>
 зирка<br>
 Bulgarian
 Etymology: By surface analysis, зи́ра (zíra, “transparent substance”) +‎ -ка (-ka)
@@ -275,7 +257,7 @@ https://en.wiktionary.org/wiki/%D0%B7%D0%B8%D1%80%D0%BA%D0%B0
 ЗЍРКА ж. Диал. Цепнатина или отвор в някаква преграда, покрив и под.; пролука, процеп, прозорка, прозирка. Дядо Яначко седеше поприведен в тъмното на одъра; през зирките на вратата светеше – оттатъка в оная, голямата стая. Ил. Волен, НС, 73. Той наблюдаваше през зирките на керемидите как зората се сипваше. Г. Караславов, Избр. съч. Х, 26. През зирките в дъсчената врата на плевнята се виждаше целият двор. В. Андреев, ПП, 8.
 https://ibl.bas.bg/rbe/lang/bg/%D0%B7%D0%B8%D1%80%D0%BA%D0%B0/
 
-8. DOWNLOAD
+7. DOWNLOAD
 
 https://github.com/Sanmayce/Zirka
 
